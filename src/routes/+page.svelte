@@ -1,12 +1,11 @@
 <script>
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>FinanceAI - Your Investor Friend</title>
+	<meta name="description" content="FinanceAI - Your investor friend" />
 </svelte:head>
 
 <section>
@@ -25,7 +24,7 @@
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
-	<Counter />
+
 </section>
 
 <style>
